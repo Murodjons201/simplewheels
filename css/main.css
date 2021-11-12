@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(28, 107, 52);
+}
+
+.container {
+    width: 730px;
+    height: 565px;
+    margin: 100px auto 0;
+    padding: 0;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 30px rgb(44, 44, 44);
+}
+
+h1, h2, img, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+.all {
+    background-image: url("../images/Bicycle-PNG-3.png");
+    background-repeat: no-repeat;
+    background-size: 700px ;
+    background-position: center bottom -150px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 30px rgb(44, 44, 44);
+}
+
+.simplewheels {
+
+    margin: 0;
+    padding: 60px 85px 245px ;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.header-desc {
+    padding-bottom: 45px;
+    font-size: 18px;
+}
+
+.ul
+ {
+     list-style: none;
+ }
+
+ li {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-bottom: 40px;
+
+ }
+
+
+ p {
+     color: rgb(168, 161, 161);
+ }
+
+ h2 {
+     color: rgb(92, 91, 91);
+ }
+
+ span {
+     font-weight: 900;
+ }
